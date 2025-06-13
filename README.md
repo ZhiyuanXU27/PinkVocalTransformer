@@ -6,7 +6,7 @@ Unlike prior black-box methods that estimate individual articulator trajectories
 ## Audio Samples
 ### Simple Vowel Samples
 #### /a/
-<table>
+<table style="min-width:1000px">
   <tr>
     <th>Original</th>
     <th>PinkVocalTransformer</th>
