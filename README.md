@@ -132,6 +132,7 @@ Unlike prior black-box methods that estimate individual articulator trajectories
     <td><audio controls src="audio/VAE_slow/vae_ieaou.wav"></audio></td>
     <td><audio controls src="audio/VAE_fast/vae_ieaou.wav"></audio></td>
   </tr>
+</table>
 
 #### /roy/
 <table>
