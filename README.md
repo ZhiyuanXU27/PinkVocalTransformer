@@ -37,22 +37,6 @@ Unlike prior black-box methods that estimate individual articulator trajectories
   </tr>
 </table>
 
-#### /i/
-<table>
-  <tr>
-    <th>Original</th>
-    <th>PinkVocalTransformer</th>
-    <th>VAE+Synth slow</th>
-    <th>VAE+Synth fast</th>
-  </tr>
-  <tr>
-    <td><audio controls src="audio/orig/i.wav"></audio></td>
-    <td><audio controls src="audio/best_audio/pt_i.wav"></audio></td>
-    <td><audio controls src="audio/VAE_slow/vae_i.wav"></audio></td>
-    <td><audio controls src="audio/VAE_fast/vae_i.wav"></audio></td>
-  </tr>
-</table>
-
 #### /o/
 <table>
   <tr>
@@ -133,6 +117,21 @@ Unlike prior black-box methods that estimate individual articulator trajectories
     <td><audio controls src="audio/VAE_fast/vae_oiu.wav"></audio></td>
   </tr>
 </table>
+
+#### /ieaou/
+<table>
+  <tr>
+    <th>Original</th>
+    <th>PinkVocalTransformer</th>
+    <th>VAE+Synth slow</th>
+    <th>VAE+Synth fast</th>
+  </tr>
+  <tr>
+    <td><audio controls src="audio/orig/ieaou.wav"></audio></td>
+    <td><audio controls src="audio/best_audio/pt_ieaou.wav"></audio></td>
+    <td><audio controls src="audio/VAE_slow/vae_ieaou.wav"></audio></td>
+    <td><audio controls src="audio/VAE_fast/vae_ieaou.wav"></audio></td>
+  </tr>
 
 #### /roy/
 <table>
