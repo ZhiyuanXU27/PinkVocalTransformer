@@ -12,12 +12,20 @@ Unlike prior black-box methods that estimate individual articulator trajectories
     <th>PinkVocalTransformer</th>
     <th>VAE+Synth slow</th>
     <th>VAE+Synth fast</th>
+    <th>Wav2vec+Synth slow</th>
+    <th>Wav2vec+Synth fast</th>
+    <th>Encodec+Synth slow</th>
+    <th>Encodec+Synth fast</th>
   </tr>
   <tr>
     <td><audio controls src="audio/orig/a.wav"></audio></td>
     <td><audio controls src="audio/best_audio/pt_a.wav"></audio></td>
     <td><audio controls src="audio/VAE_slow/vae_a.wav"></audio></td>
     <td><audio controls src="audio/VAE_fast/vae_a.wav"></audio></td>
+    <td><audio controls src="audio/wav_slow/wav_a.wav"></audio></td>
+    <td><audio controls src="audio/wav_fast/wav_a.wav"></audio></td>
+    <td><audio controls src="audio/encodec_slow/encodec_a.wav"></audio></td>
+    <td><audio controls src="audio/encodec_fast/encodec_a.wav"></audio></td>
   </tr>
 </table>
 
@@ -28,28 +36,20 @@ Unlike prior black-box methods that estimate individual articulator trajectories
     <th>PinkVocalTransformer</th>
     <th>VAE+Synth slow</th>
     <th>VAE+Synth fast</th>
+    <th>Wav2vec+Synth slow</th>
+    <th>Wav2vec+Synth fast</th>
+    <th>Encodec+Synth slow</th>
+    <th>Encodec+Synth fast</th>
   </tr>
   <tr>
     <td><audio controls src="audio/orig/e.wav"></audio></td>
     <td><audio controls src="audio/best_audio/pt_e.wav"></audio></td>
     <td><audio controls src="audio/VAE_slow/vae_e.wav"></audio></td>
     <td><audio controls src="audio/VAE_fast/vae_e.wav"></audio></td>
-  </tr>
-</table>
-
-#### /o/
-<table>
-  <tr>
-    <th>Original</th>
-    <th>PinkVocalTransformer</th>
-    <th>VAE+Synth slow</th>
-    <th>VAE+Synth fast</th>
-  </tr>
-  <tr>
-    <td><audio controls src="audio/orig/o.wav"></audio></td>
-    <td><audio controls src="audio/best_audio/pt_o.wav"></audio></td>
-    <td><audio controls src="audio/VAE_slow/vae_o.wav"></audio></td>
-    <td><audio controls src="audio/VAE_fast/vae_o.wav"></audio></td>
+    <td><audio controls src="audio/wav_slow/wav_e.wav"></audio></td>
+    <td><audio controls src="audio/wav_fast/wav_e.wav"></audio></td>
+    <td><audio controls src="audio/encodec_slow/encodec_e.wav"></audio></td>
+    <td><audio controls src="audio/encodec_fast/encodec_e.wav"></audio></td>
   </tr>
 </table>
 
@@ -60,12 +60,20 @@ Unlike prior black-box methods that estimate individual articulator trajectories
     <th>PinkVocalTransformer</th>
     <th>VAE+Synth slow</th>
     <th>VAE+Synth fast</th>
+    <th>Wav2vec+Synth slow</th>
+    <th>Wav2vec+Synth fast</th>
+    <th>Encodec+Synth slow</th>
+    <th>Encodec+Synth fast</th>
   </tr>
   <tr>
     <td><audio controls src="audio/orig/u.wav"></audio></td>
     <td><audio controls src="audio/best_audio/pt_u.wav"></audio></td>
     <td><audio controls src="audio/VAE_slow/vae_u.wav"></audio></td>
     <td><audio controls src="audio/VAE_fast/vae_u.wav"></audio></td>
+    <td><audio controls src="audio/wav_slow/wav_u.wav"></audio></td>
+    <td><audio controls src="audio/wav_fast/wav_u.wav"></audio></td>
+    <td><audio controls src="audio/encodec_slow/encodec_u.wav"></audio></td>
+    <td><audio controls src="audio/encodec_fast/encodec_u.wav"></audio></td>
   </tr>
 </table>
 
@@ -77,12 +85,20 @@ Unlike prior black-box methods that estimate individual articulator trajectories
     <th>PinkVocalTransformer</th>
     <th>VAE+Synth slow</th>
     <th>VAE+Synth fast</th>
+    <th>Wav2vec+Synth slow</th>
+    <th>Wav2vec+Synth fast</th>
+    <th>Encodec+Synth slow</th>
+    <th>Encodec+Synth fast</th>
   </tr>
   <tr>
     <td><audio controls src="audio/orig/eiu.wav"></audio></td>
     <td><audio controls src="audio/best_audio/pt_eiu.wav"></audio></td>
     <td><audio controls src="audio/VAE_slow/vae_eiu.wav"></audio></td>
     <td><audio controls src="audio/VAE_fast/vae_eiu.wav"></audio></td>
+    <td><audio controls src="audio/wav_slow/wav_eiu.wav"></audio></td>
+    <td><audio controls src="audio/wav_fast/wav_eiu.wav"></audio></td>
+    <td><audio controls src="audio/encodec_slow/encodec_eiu.wav"></audio></td>
+    <td><audio controls src="audio/encodec_fast/encodec_eiu.wav"></audio></td>
   </tr>
 </table>
 
@@ -93,12 +109,20 @@ Unlike prior black-box methods that estimate individual articulator trajectories
     <th>PinkVocalTransformer</th>
     <th>VAE+Synth slow</th>
     <th>VAE+Synth fast</th>
+    <th>Wav2vec+Synth slow</th>
+    <th>Wav2vec+Synth fast</th>
+    <th>Encodec+Synth slow</th>
+    <th>Encodec+Synth fast</th>
   </tr>
   <tr>
     <td><audio controls src="audio/orig/aio.wav"></audio></td>
     <td><audio controls src="audio/best_audio/pt_aio.wav"></audio></td>
     <td><audio controls src="audio/VAE_slow/vae_aio.wav"></audio></td>
     <td><audio controls src="audio/VAE_fast/vae_aio.wav"></audio></td>
+    <td><audio controls src="audio/wav_slow/wav_aio.wav"></audio></td>
+    <td><audio controls src="audio/wav_fast/wav_aio.wav"></audio></td>
+    <td><audio controls src="audio/encodec_slow/encodec_aio.wav"></audio></td>
+    <td><audio controls src="audio/encodec_fast/encodec_aio.wav"></audio></td>
   </tr>
 </table>
 
@@ -109,12 +133,20 @@ Unlike prior black-box methods that estimate individual articulator trajectories
     <th>PinkVocalTransformer</th>
     <th>VAE+Synth slow</th>
     <th>VAE+Synth fast</th>
+    <th>Wav2vec+Synth slow</th>
+    <th>Wav2vec+Synth fast</th>
+    <th>Encodec+Synth slow</th>
+    <th>Encodec+Synth fast</th>
   </tr>
   <tr>
     <td><audio controls src="audio/orig/oiu.wav"></audio></td>
     <td><audio controls src="audio/best_audio/pt_oiu.wav"></audio></td>
     <td><audio controls src="audio/VAE_slow/vae_oiu.wav"></audio></td>
     <td><audio controls src="audio/VAE_fast/vae_oiu.wav"></audio></td>
+    <td><audio controls src="audio/wav_slow/wav_oiu.wav"></audio></td>
+    <td><audio controls src="audio/wav_fast/wav_oiu.wav"></audio></td>
+    <td><audio controls src="audio/encodec_slow/encodec_oiu.wav"></audio></td>
+    <td><audio controls src="audio/encodec_fast/encodec_oiu.wav"></audio></td>
   </tr>
 </table>
 
@@ -125,12 +157,20 @@ Unlike prior black-box methods that estimate individual articulator trajectories
     <th>PinkVocalTransformer</th>
     <th>VAE+Synth slow</th>
     <th>VAE+Synth fast</th>
+    <th>Wav2vec+Synth slow</th>
+    <th>Wav2vec+Synth fast</th>
+    <th>Encodec+Synth slow</th>
+    <th>Encodec+Synth fast</th>
   </tr>
   <tr>
     <td><audio controls src="audio/orig/ieaou.wav"></audio></td>
     <td><audio controls src="audio/best_audio/pt_ieaou.wav"></audio></td>
     <td><audio controls src="audio/VAE_slow/vae_ieaou.wav"></audio></td>
     <td><audio controls src="audio/VAE_fast/vae_ieaou.wav"></audio></td>
+    <td><audio controls src="audio/wav_slow/wav_ieaou.wav"></audio></td>
+    <td><audio controls src="audio/wav_fast/wav_ieaou.wav"></audio></td>
+    <td><audio controls src="audio/encodec_slow/encodec_ieaou.wav"></audio></td>
+    <td><audio controls src="audio/encodec_fast/encodec_ieaou.wav"></audio></td>
   </tr>
 </table>
 
@@ -141,11 +181,19 @@ Unlike prior black-box methods that estimate individual articulator trajectories
     <th>PinkVocalTransformer</th>
     <th>VAE+Synth slow</th>
     <th>VAE+Synth fast</th>
+    <th>Wav2vec+Synth slow</th>
+    <th>Wav2vec+Synth fast</th>
+    <th>Encodec+Synth slow</th>
+    <th>Encodec+Synth fast</th>
   </tr>
   <tr>
     <td><audio controls src="audio/orig/roy.wav"></audio></td>
     <td><audio controls src="audio/best_audio/pt_roy.wav"></audio></td>
     <td><audio controls src="audio/VAE_slow/vae_roy.wav"></audio></td>
     <td><audio controls src="audio/VAE_fast/vae_roy.wav"></audio></td>
+    <td><audio controls src="audio/wav_slow/wav_roy.wav"></audio></td>
+    <td><audio controls src="audio/wav_fast/wav_roy.wav"></audio></td>
+    <td><audio controls src="audio/encodec_slow/encodec_roy.wav"></audio></td>
+    <td><audio controls src="audio/encodec_fast/encodec_roy.wav"></audio></td>
   </tr>
 </table>
